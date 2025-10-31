@@ -1,0 +1,93 @@
+body {
+    text-align: center;
+    background: linear-gradient(to bottom, #5cd1ff, #5cd1ff); /* Gradasi langit biru */
+    font-family: 'Poppins', sans-serif; /* Font modern */
+    color: #333; /* Warna teks lebih gelap */
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh; /* Memastikan body mengisi seluruh tinggi viewport */
+    background-image: url('/game/gambar/image.png'); /* Gambar latar belakang asli Anda */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+h1.nama {
+    font-size: 3em;
+    color:#4f93e0;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+    margin-bottom: 20px;
+    letter-spacing: 2px;
+}
+
+canvas {
+    border: 8px solid #308cce;
+    background: #4f93e0;
+    background: linear-gradient(122deg, rgba(79, 147, 224, 1) 16%, rgba(236, 126, 242, 1) 100%);
+    border-radius: 15px; /* Sudut lebih membulat */
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3), inset 0 0 15px rgba(255, 255, 255, 0.5); /* Bayangan lebih dalam */
+    margin-bottom: 30px;
+}
+
+.info {
+    margin-top: 20px;
+    background: rgba(255, 255, 255, 0.8); /* Latar belakang informasi semi-transparan */
+    padding: 15px 25px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.info p {
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #555;
+    margin: 5px 0;
+}
+
+#score {
+    color: #de0b24; /* Warna skor lebih menonjol */
+}
+
+#gameover {
+    font-size: 1.8em;
+    font-weight: bold;
+    color: #d60a0a !important; /* Merah terang untuk Game Over */
+    margin-bottom: 15px;
+}
+
+button {
+    padding: 12px 25px;
+    border-radius: 25px; /* Tombol membulat */
+    background: linear-gradient(to right, #4899f0, #e196de); /* Gradasi hijau */
+    color: #ffffff;
+    cursor: pointer;
+    border: none;
+    font-size: 1.2em;
+    font-weight: bold;
+    text-transform: uppercase;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease;
+    margin: 5px 10px; /* Jarak antar tombol */
+}
+
+button:hover {
+    background: linear-gradient(to right, #e196de, #4faaf5); /* Efek hover gradasi terbalik */
+    transform: translateY(-3px); /* Sedikit efek angkat */
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+}
+
+button:active {
+    transform: translateY(0);
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Optional: import font Poppins dari Google Fonts di bagian <head> HTML */
+/* <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet"> */
