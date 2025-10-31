@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game Ular</title>
+    <link rel="stylesheet" href="./Style.css">
+</head>
+<body>
+    <h1 class="nama">Blue Snake</h1>
+    <canvas id="gamecanvas" width="1000" height="400"></canvas>
+
+    <div class="info">
+        <p>skor : <span id="score"></span></p>
+        <p id="gameover" style="display: none; color: #cd0f0f;">Game Over</p>
+        <button onclick="resetGame()">restart game</button>
+        <button id="startBtn" onclick="startGame()">start game</button>
+    </div>
+<script src="./Script.js"></script>
+</body>
+</html>

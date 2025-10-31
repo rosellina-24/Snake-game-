@@ -1,0 +1,33 @@
+body {
+    text-align: center;
+    background: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+canvas {
+    border: 2px solid rgba(0, 0, 0, 0.162);
+    background: rgba(125, 123, 123, 0.363);
+    border-radius: 5px;
+}
+
+button {
+    padding: 10px 16px;
+    border-radius: 5px;
+    background: #0ea53c;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+button:hover{
+    background: #07531d;
+}
+
+.info {
+    margin: 10px;
+}
+
+.nama {
+    color: #1f69d1;
+}
